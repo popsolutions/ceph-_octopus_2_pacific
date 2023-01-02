@@ -6,7 +6,7 @@ ceph mon enable-msgr2
 
 ceph mon dump
 
-sed -i 's/octopus/pacific/' /etc/apt/sources.list.d/ceph.list
+sed -i 's/pacific/quincy/' /etc/apt/sources.list.d/ceph.list
 
 ceph osd set noout
 
